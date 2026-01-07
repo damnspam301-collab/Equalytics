@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equalytics: Gender Pay Gap Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Equalytics: Gender Pay Gap Analyzer</h1>
+        <p>Project by Greenfield Chennai International School - Class XII (2025-2026)</p>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>The gender pay gap represents persistent differences in salaries between men and women. This project uses AI to analyze data and uncover biases in pay structures.</p>
+    </section>
+
+    <section id="problem">
+        <h2>Problem Statement</h2>
+        <p>Despite progress, gender inequality affects employment and wages. Our focus is on the gender pay gap, where women earn less for similar work.</p>
+    </section>
+
+    <section id="solution">
+        <h2>Our Solution</h2>
+        <p>We built a linear regression model to predict salaries and detect disparities. Use the tool below to analyze sample inputs.</p>
+    </section>
+
+    <section id="analyzer">
+        <h2>Pay Gap Analyzer Tool</h2>
+        <form id="inputForm">
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+
+            <label for="experience">Years of Experience:</label>
+            <input type="number" id="experience" min="0" required><br>
+
+            <label for="education">Education Level:</label>
+            <select id="education" required>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Master">Master</option>
+                <option value="PhD">PhD</option>
+            </select><br>
+
+            <label for="jobTitle">Job Title:</label>
+            <select id="jobTitle" required>
+                <option value="Analyst">Analyst</option>
+                <option value="Consultant">Consultant</option>
+                <option value="Designer">Designer</option>
+                <option value="Developer">Developer</option>
+                <option value="Director">Director</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Intern">Intern</option>
+                <option value="Manager">Manager</option>
+                <option value="Senior Engineer">Senior Engineer</option>
+                <option value="VP">VP</option>
+            </select><br>
+
+            <label for="location">Location:</label>
+            <select id="location" required>
+                <option value="Rural">Rural</option>
+                <option value="Urban">Urban</option>
+            </select><br>
+
+            <button type="submit">Analyze Salary</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <section id="team">
+        <h2>Team Roles</h2>
+        <table>
+            <tr><th>Role</th><th>Member</th></tr>
+            <tr><td>Documentation Specialist</td><td>Spandan Saraf</td></tr>
+            <tr><td>Researcher</td><td>Tanishka Vatturi</td></tr>
+            <tr><td>Designer & Team Lead</td><td>Simran Jangid</td></tr>
+        </table>
+    </section>
+
+    <section id="plan">
+        <h2>Project Plan</h2>
+        <ul>
+            <li>Preparing for Project: 3.5.25 - Simran</li>
+            <li>Defining the Problem: 14.5.25 - Spandan</li>
+            <!-- Add more as needed -->
+        </ul>
+    </section>
+
+    <section id="reflections">
+        <h2>Reflections</h2>
+        <p>As a team, we learned collaboration and using AI for social good.</p>
+        <!-- Add individual reflections -->
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Equalytics Team</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
